@@ -235,3 +235,27 @@ nav{
     background-color: var(--black);
     color: var(--pink);
 }
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.search div{
+    width: 2rem;
+    height: 2.5rem;
+    background-color: var(--pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.search input{
+    width: 50rem;
+    height: 2.5rem;
+}
