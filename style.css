@@ -9,6 +9,11 @@
 
 }
 
+body{
+    /* width: 100vw; */
+    height: 100vh;
+}
+
 nav{
     height: 6rem;
     width: 100%;
@@ -319,13 +324,49 @@ figcaption{
 }
 
 .mvn_cart{
-    width: 3rem;
+    width: 2.8rem;
     height: 3rem;
     position: absolute;
-    background-color: yellow;
+    background-color: rgb(249, 228, 148);
+    margin-left: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 7px;
+    /* bottom: -3.6rem; */
+    /* right: -2rem; */
+    translate: 0 -40px 0;
+    transition: all 1s ease-in-out;
 }
 
 .mvn_cart img{
     width: 1.5rem;
     height: 1.5rem;
+    /* display: none; */
+}
+
+@media(max-width:640px){
+    :root{
+        font-size: 12px;
+    }
+
+    nav{
+        height: 10rem;
+    }
+
+    .first_page{
+        width: 68rem;
+        height: 40rem;
+        background-size: contain;
+    }
+
+    .greet{
+        display: block;
+        line-height: 8rem;
+        padding-top: 0;
+    }
+
+    .greet h2{
+        font-size: 6rem;
+    }
 }
