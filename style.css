@@ -25,7 +25,7 @@ nav{
     cursor: pointer;
 }
 
-.n-info{
+.dou-info{
     width: 20rem;
     margin-left: 20rem;
     color: var(--pink);
@@ -37,7 +37,7 @@ nav{
     cursor: pointer;
 }
 
-.n-info p:hover{
+.dou-info p:hover{
     color: var(--black);
 }
 
@@ -134,25 +134,25 @@ nav{
     color: var(--pink);
 }
 
-.sec{
+.about{
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: 45rem 1fr;
 }
 
-.sec_info{
+.about_info{
     height: 80%;
     width: 35rem;
     margin: 6rem;
 }
 
-.sec_info h2{
+.about_info h2{
     margin-bottom: 1.3rem;
     font-size: 2.5rem;
 }
 
-.sec_info span{
+.about_info span{
     color: var(--pink);
     font-size: 4.5rem;
 }
@@ -177,8 +177,7 @@ nav{
 .sec_view{
     height: 100%;
     padding-left: 6rem;
-    padding-top: 5rem;
-    /* position: relative; */
+    padding-top: 8rem;
 }
 
 .view{
@@ -186,7 +185,17 @@ nav{
     height: 35rem;
     border: 0.5rem solid #f9e494;
     position: absolute;
-    /* transform: -30px -50px 0; */
+    translate: -25px -25px 0;
+    transition: all 1s ease-in-out;
+}
+
+.hover:hover .view {
+    translate: 0;
+}
+
+.hover{
+    width: 46rem;
+    height: 35rem;
 }
 
 .sec_view img{
@@ -201,14 +210,14 @@ nav{
     transition: all 0.5s linear;
 }
 
-.list{
+.lists{
     width: 100%;
     height: 250vh;
     background-color: #eeeeee;
     padding-top: 3rem;
 }
 
-.liist{
+.list{
     width: 17rem;
     font-size: 2rem;
     margin: auto;
@@ -285,7 +294,7 @@ nav{
     box-shadow: 0 0 10px #719ECE;
 }
 
-.product{
+.products{
     width: 85%;
     height: 85%;
     margin: 3rem auto;
@@ -298,29 +307,34 @@ nav{
 
 figcaption{
     width: 100%;
-    height: 4.1rem;
+    height:5rem;
     background-color: var(--white);
-    margin-top: -0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1.5rem;
     font-size: 1.2rem;
+    padding: 0 2rem;
 }
 
-.p_info{
+.over{
+    height: 100%;
+}
+.product{
     width: 28rem;
-    height: 25rem;
+    height: 24rem;
+
 }
 
-.p_info img{
+.product img.p-img{
     width: 100%;
-    height: 20rem;
+    height: 100%;
     cursor: pointer;
+    transition: all 1s linear;
 }
 
 .pics{
     position: relative;
+    height: 75%;
 }
 
 .mvn_cart{
@@ -335,14 +349,13 @@ figcaption{
     right: 0;
     bottom: 0rem;  
     transition: all 1s ease-in-out;
-
 }
+
 .over{
     overflow: hidden;
-    
 }
+
 .over img:hover{
-    transition: all 1s linear;
     transform: scale(1.3);
 }
 .mvn_cart img{
