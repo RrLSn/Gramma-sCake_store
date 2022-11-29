@@ -14,6 +14,9 @@ CSS
 
 # Demo
 [preview](https://warm-monstera-5e5488.netlify.app)
+![screenshot](./media/Screenshot%202022-11-29%20063624.png)
+![screenshot](./media/Screenshot%202022-11-29%20063655.png)
+![screenshot](./media/Screenshot%202022-11-29%20063824.png)
 
 
 # Contact
