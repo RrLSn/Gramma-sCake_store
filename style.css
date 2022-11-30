@@ -95,6 +95,10 @@ nav{
     height: 1.5rem;
 }
 
+.menu{
+    display: none;
+}
+
 .first_page{
     width: 100%;
     height: 48rem;
@@ -385,8 +389,9 @@ figcaption{
         font-size: 10px;
     }
     body{
-        width: 64rem;
+        width: 60rem;
         height: 100vh;
+        overflow-x: hidden;
     }
 
     .introduction{
@@ -396,8 +401,11 @@ figcaption{
 
     nav{
         height: 13rem;
-        width: 100%;
+        width: 98%;
         margin-left: 2rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2rem;
     }
 
     .dou-info, .nav_infos{
@@ -409,8 +417,18 @@ figcaption{
         height: 10rem;
     }
 
+    .menu{
+        display: flex;
+        align-items: center;
+    }
+
+    .menu img{
+        width: 8rem;
+        height: 8rem;
+    }
+
    .first_page{
-        background-size: 70% 50%;
+        background-size: 100% 100%;
         padding-top: 6rem;
     }
 
@@ -467,7 +485,49 @@ figcaption{
         height: auto;
     }
 
+    .list{
+        font-size: 3rem;
+        width: 24rem;
+    }
+
+    .list span{
+        font-size: 6rem;
+    }
+
+    .opt{
+        width: 50rem;
+        font-size: 1.5rem;
+        gap: 2rem;
+    }
+
+    .search div{
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    .search img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .search input{
+        height: 4.5rem;
+        font-size: 2rem;
+    }
+
     .products{
         height: 90%;
+        gap: 4rem;
+    }
+
+    .product{
+        width: 36rem;
+        height: 30rem;
+        padding-bottom: 4rem;
+    }
+
+    figcaption{
+        height: 7rem;
+        font-size: 2rem;
     }
 }
