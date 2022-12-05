@@ -348,7 +348,7 @@ figcaption{
 
 .mvn_cart{
     width: 0;
-    height:0;
+    height: 0;
     background-color: rgb(249, 228, 148);
     display: flex;
     justify-content: center;
@@ -372,12 +372,13 @@ figcaption{
     height: 0rem;
 }
 
-.p_info:hover .mvn_cart{
+
+.product:hover .mvn_cart{
     width: 2.8rem;
     height: 2.8rem;  
 }
 
-.p_info:hover .mvn_cart img{
+.product:hover .mvn_cart img{
     width: 1.3rem;
     height: 1.3rem;
     display: block;
