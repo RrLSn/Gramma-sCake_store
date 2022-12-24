@@ -420,7 +420,7 @@ figcaption{
 
     .menu{
         display: flex;
-        align-items: center;
+        margin: 2.5rem 1.5rem 0 0;
     }
 
     .menu img{
@@ -530,5 +530,17 @@ figcaption{
     figcaption{
         height: 7rem;
         font-size: 2rem;
+    }
+
+    details > summary {
+       list-style-type: none;
+    }
+
+    details > a{
+        text-decoration: none;
+        font-size: 2.5rem;
+        color: var(--pink);
+        width: 10rem;
+        background-color: var(--white);
     }
 }
