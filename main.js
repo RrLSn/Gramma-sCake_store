@@ -98,14 +98,7 @@ const products = [
     }
 ]
 
-const figCaption = document.querySelectorAll('figcaption')
-const pro_info = document.createElement('p')
-const price = document.createElement('p')
-
-for(i=0; i < figCaption.length; i++){
-    console.log(figCaption.length)
-    figCaption[i].appendChild(pro_info)
-    pro_info.textContent = products[0].info
-    figCaption[i].appendChild(price)
-    price.textContent = products[0].price
-}
+// selectors
+const imageEl = document.querySelector('.p-img')
+const cartEl = document.querySelector('.mvn_cart')
+const figCaption = document.querySelector('figCaption')
